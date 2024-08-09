@@ -1,0 +1,53 @@
+@media(max-width:1200px) {
+    .banner .banner-title h1 {
+        font-size: 60px;
+        line-height: 60px;
+    }
+}
+
+@media(max-width:992px) {
+    navbar-nav {
+        background-color: white;
+        position: absolute;
+        top: 80px;
+        width: 100%;
+        left: 0;
+        padding: 0 40px;
+    }
+
+    .features,.Testimonial{
+        padding: 52px 20px 50px;
+    }
+    footer .footer-title input{
+        padding: 10px 10px;
+    }
+}
+
+@media(max-width:768px){
+    .heading{
+        margin-bottom: 40px;
+    }
+    
+}
+
+@media(max-width:576px) {
+    .banner .banner-title h1 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .Testimonial .shape-1-img{
+        width: 80px;
+        top: 40px;
+        left: -20px;
+    }
+    .Testimonial .shape-2-img{
+        width: 85px;
+        bottom: 0px;
+        left:0px;
+    }
+
+    footer .footer-shape{
+        width: 105px;
+     }
+}
